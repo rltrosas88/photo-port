@@ -2,12 +2,12 @@ import React from "react";
 import { capitalizeFirstLetter } from "../../utils/helpers";
 
 function Nav(props) {
-  // const [currentCategory, setCurrentCategory] = useState(categories[0]);
   const {
     categories = [],
     setCurrentCategory,
     currentCategory,
   } = props;
+
 
   const handleClick = (item) => {
     console.log(item);
